@@ -1,0 +1,24 @@
+.hw {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.hfw {
+    max-width: 1300px;
+    box-sizing: border-box;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+
+.hfw ul {
+    width: 576px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
