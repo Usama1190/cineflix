@@ -14,6 +14,14 @@ a {
     color: #252525;
 }
 
+.active {
+    border-bottom: 2px solid rgb(212, 110, 15);
+}
+
+a > button a.active {
+    border-bottom: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     color: #252525;
 }

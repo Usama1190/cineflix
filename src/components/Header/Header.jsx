@@ -9,19 +9,13 @@ const Header = () => {
         <h1>Cineflex</h1>
         <ul>
           <li>
-            <NavLink to={"/"}>Home</NavLink>
-          </li>
-          <li>
             <NavLink to={"/"}>Trends</NavLink>
           </li>
           <li>
             <NavLink to={"/movies"}>Movies</NavLink>
           </li>
-          {/* <li>
-            <NavLink to={"/"}>Incoming Poster</NavLink>
-          </li> */}
           <li>
-            <Button btnText={"Login"} btnLink={"/"} btnLayout={'sf'} />
+            <Button btnText={"Login"} btnLink={"/login"} btnLayout={'sf'} />
           </li>
         </ul>
       </div>

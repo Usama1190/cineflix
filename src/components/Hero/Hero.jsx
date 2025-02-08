@@ -2,7 +2,7 @@ import Button from "../common/Button/Button";
 import styles from "./Hero.module.css";
 
 const Hero = ({ specific_id, specific_status, data }) => {
-  const { title, budget, isrotate, revenue, year, producer, director, release_date, cinema, image_url, img_alt, id, status, description, trailar } = data;
+  const { title, budget, isrotate, revenue, year, producer, director, release_date, cinema, image_url, img_alt, id, status, description, trailer } = data;
 
   {
     if (id === specific_id || status === specific_status) {
@@ -23,7 +23,7 @@ const Hero = ({ specific_id, specific_status, data }) => {
               <h4>Budget : {budget}</h4>
               <h4>Renevue : {revenue}</h4>
               <p>About : {description}</p>
-              <Button btnLayout={'ss'} btnLink={trailar} btnText={'Watch Trailer'} />
+              <Button btnLayout={'ss'} btnLink={trailer} btnText={'Watch Trailer'} />
             </div>
           </div>
         </div>
