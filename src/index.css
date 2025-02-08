@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Dancing Script", serif;
 }
 
 ul {
@@ -10,4 +11,45 @@ ul {
 
 a {
     text-decoration: none;
+    color: #252525;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #252525;
+}
+
+button.sf {
+    padding: 15px 24px;
+    border: 2px solid transparent;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: rgb(212, 110, 15);
+    color: #ebebeb;
+    font-weight: 800;
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+button.sf:hover {
+    background-color: transparent;
+    border: 2px solid rgb(212, 110, 15);
+    color: rgb(212, 110, 15);
+}
+
+button.ss {
+    padding: 15px 24px;
+    border: 2px solid rgb(212, 110, 15);
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(212, 110, 15);
+    font-weight: 800;
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+button.ss:hover {
+    background-color: rgb(212, 110, 15);
+    border: 2px solid transparent;
+    color: #ebebeb;
 }

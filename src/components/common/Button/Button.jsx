@@ -1,11 +1,10 @@
 import { NavLink } from "react-router-dom";
-import './Button.module.css'
 
-const Button = ({ btnText, btnLink }) => {
+const Button = ({ btnText, btnLink, btnLayout }) => {
   return (
     <>
       <NavLink to={btnLink}>
-        <button>{btnText}</button>
+        <button className={`${btnLayout}`}>{btnText}</button>
       </NavLink>
     </>
   );

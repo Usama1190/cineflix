@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div className={styles.hw}>
       <div className={styles.hfw}>
-        <p>Cineflex</p>
+        <h1>Cineflex</h1>
         <ul>
           <li>
             <NavLink to={"/"}>Home</NavLink>
@@ -15,13 +15,13 @@ const Header = () => {
             <NavLink to={"/"}>Trends</NavLink>
           </li>
           <li>
-            <NavLink to={"/"}>About</NavLink>
+            <NavLink to={"/movies"}>Movies</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink to={"/"}>Incoming Poster</NavLink>
-          </li>
+          </li> */}
           <li>
-            <Button btnText={"Login"} btnLink={"/"} />
+            <Button btnText={"Login"} btnLink={"/"} btnLayout={'sf'} />
           </li>
         </ul>
       </div>

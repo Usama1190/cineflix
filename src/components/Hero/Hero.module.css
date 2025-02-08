@@ -1,0 +1,55 @@
+.hw {
+    width: 100%;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    padding: 96px 0;
+}
+
+.hiw {
+    /* border: 1px solid red; */
+    max-width: 1300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 72px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.rotate {
+    flex-direction: row-reverse;
+}
+
+.hi {
+    width: 40%;
+    /* border: 1px solid red; */
+}
+
+.hi img {
+    width: 100%;
+    height: 100%;
+}
+
+.hc {
+    width: 55%;
+}
+
+.hc h1 {
+    font-size: 54px;
+    margin: 0 0 24px;
+}
+
+.hc h2 {
+    font-size: 28px;
+    margin: 0 0 18px;
+}
+
+.hc h4 {
+    font-size: 22px;
+    margin: 0 0 8px;
+}
+
+.hc p {
+    font-size: 22px;
+    margin: 0 0 54px;
+}

@@ -1,24 +1,41 @@
 .hw {
     width: 100%;
     box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .hfw {
     max-width: 1300px;
     box-sizing: border-box;
-    border: 1px solid purple;
+    /* border: 1px solid purple; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding: 12px 0;
+    padding: 24px 0;
+}
+
+.hfw > h1 {
+    font-size: 44px;
 }
 
 .hfw ul {
-    width: 576px;
+    width: 376px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
 }
+
+.hfw ul li {
+    cursor: pointer;
+}
+
+.hfw ul li a {
+    padding: 12px 0;
+    font-weight: 800;
+    font-size: 24px;
+}
+

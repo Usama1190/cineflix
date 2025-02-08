@@ -1,16 +1,21 @@
-import Button from "../../components/common/Button/Button"
-import TrendingMovies from "../../components/TrendingMovies/TrendingMovies"
+import Hero from "../../components/Hero/Hero";
+import movies from "../../utils/constant/movieData";
 
 const Home = () => {
   return (
     <div className="">
       <div>
-      Home
-      <TrendingMovies />
-      <Button btnText={'View Movies'} btnLink={'/movies'} />
+        {movies.map((item, index) => {
+            return (
+              <div key={index}>
+                <Hero data={item} specific_status={'Upcoming'} />
+              </div>
+            )
+          }
+        )}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
