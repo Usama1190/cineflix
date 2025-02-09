@@ -1,20 +1,12 @@
 import Hero from "../../components/Hero/Hero";
 import movies from "../../utils/constant/movieData";
-import MovieListing from "../MovieListing/MovieListing";
 
 const Home = () => {
   return (
-    <div className="">
+    <div>
       <div>
         {movies.map((item, index) => {
-            if(index == 2) {
-                return (
-                  <div key={index}>
-                    <MovieListing />
-                  </div>
-                )
-            }
-            else if(item.status == 'Upcoming') {
+             if(item.year == 2025) {
               return (
                 <div key={index}>
                   <Hero data={item} />

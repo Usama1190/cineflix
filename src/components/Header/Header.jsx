@@ -15,6 +15,9 @@ const Header = () => {
             <NavLink to={"/movies"}>Movies</NavLink>
           </li>
           <li>
+            <NavLink to={"/upcoming-posters"}>Upcoming Posters</NavLink>
+          </li>
+          <li>
             <Button btnText={"Login"} btnLink={"/login"} btnLayout={'sf'} />
           </li>
         </ul>

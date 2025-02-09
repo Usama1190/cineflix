@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 const Button = ({ btnText, btnLink, btnLayout }) => {
   return (
     <>
-      <NavLink to={btnLink}>
+      <a href={btnLink} target="_blank">
         <button className={`${btnLayout}`}>{btnText}</button>
-      </NavLink>
+      </a>
     </>
   );
 };

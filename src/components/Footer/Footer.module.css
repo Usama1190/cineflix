@@ -16,3 +16,10 @@
 .fiw h1, p {
     color: var(--text-light);
 }
+
+@media (max-width: 1320px) {
+    .fiw {
+        padding: 32px 30px;
+    }
+}
+

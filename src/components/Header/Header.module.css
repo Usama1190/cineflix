@@ -23,11 +23,11 @@
 }
 
 .hfw ul {
-    width: 316px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 12px;
 }
 
 .hfw ul li {
@@ -39,3 +39,18 @@
     font-weight: 800;
     font-size: 24px;
 }
+
+
+@media (max-width: 1320px) {
+    .hfw {
+        padding: 24px 30px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .hfw ul {
+        display: none;
+    }
+}
+

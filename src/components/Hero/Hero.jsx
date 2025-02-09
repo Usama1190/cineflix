@@ -34,7 +34,7 @@ const Hero = ({ data }) => {
           <h4>Director : {director}</h4>
           <h4>Budget : {budget}</h4>
           <h4>Renevue : {revenue}</h4>
-          <p>About : {description}</p>
+          <h4>About : {description}</h4>
           <Button
             btnLayout={"ss"}
             btnLink={trailer}
