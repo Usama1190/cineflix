@@ -14,7 +14,7 @@ const Header = () => {
     <div className={styles.hw}>
       <div className={styles.hfw}>
         <h1>Cineflex</h1>
-        <div className={isOpen ? `${styles.lw} ${styles.dl}` : `${styles.lw} ${styles.hl}`} onClick={clickHandle}>
+        <div className={isOpen ? `${styles.lw} ${styles.dl}` : `${styles.lw}`} onClick={clickHandle}>
           <ul>
             <li>
               <NavLink to={"/"}>Home</NavLink>
