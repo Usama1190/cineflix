@@ -1,8 +1,18 @@
+:root {
+    --primery : #394E59;
+    --secondary : #0d1b22;
+    --text-light: #f0f0f0;
+    --text-dark: #394E59;
+}
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Dancing Script", serif;
+    background-color: var(--primery);
+    color: var(--text-light);
 }
 
 ul {
@@ -11,11 +21,11 @@ ul {
 
 a {
     text-decoration: none;
-    color: #252525;
 }
 
 .active {
-    border-bottom: 2px solid rgb(212, 110, 15);
+    border-bottom: 5px solid var(--secondary);
+    border-top: 5px solid var(--secondary);
 }
 
 a > button a.active {
@@ -23,7 +33,7 @@ a > button a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #252525;
+    color: var(--text-light);
 }
 
 button.sf {
@@ -31,8 +41,8 @@ button.sf {
     border: 2px solid transparent;
     border-radius: 35px;
     cursor: pointer;
-    background-color: rgb(212, 110, 15);
-    color: #ebebeb;
+    background-color: var(--secondary);
+    color: var(--text-light);
     font-weight: 800;
     font-size: 24px;
     transition: all 0.3s;
@@ -40,24 +50,22 @@ button.sf {
 
 button.sf:hover {
     background-color: transparent;
-    border: 2px solid rgb(212, 110, 15);
-    color: rgb(212, 110, 15);
+    border: 2px solid var(--secondary);
+    color: var(--secondary);
 }
 
 button.ss {
     padding: 15px 24px;
-    border: 2px solid rgb(212, 110, 15);
+    border: 2px solid var(--secondary);
     border-radius: 35px;
     cursor: pointer;
     background-color: transparent;
-    color: rgb(212, 110, 15);
     font-weight: 800;
     font-size: 24px;
     transition: all 0.3s;
 }
 
 button.ss:hover {
-    background-color: rgb(212, 110, 15);
+    background-color: var(--secondary);
     border: 2px solid transparent;
-    color: #ebebeb;
 }

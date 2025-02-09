@@ -3,14 +3,13 @@
     box-sizing: border-box;
     position: sticky;
     top: 0;
-    background-color: white;
     z-index: 99;
+    background-color: var(--primery);
 }
 
 .hfw {
     max-width: 1300px;
     box-sizing: border-box;
-    /* border: 1px solid purple; */
     display: flex;
     justify-content: space-between;
     align-items: center;

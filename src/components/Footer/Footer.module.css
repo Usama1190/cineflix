@@ -1,9 +1,7 @@
 .fw {
     width: 100%;
     padding: 32px 0;
-    /* border: 1px solid red; */
-    background-color: rgb(212, 110, 15);
-    color: white;
+    background-color: var(--secondary);
 }
 
 .fiw {
@@ -13,8 +11,5 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: var(--secondary);
 }
-
-/* .fiw h1, a {
-    color: white;
-} */
