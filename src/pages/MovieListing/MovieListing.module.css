@@ -16,7 +16,6 @@
 .mlh h1 {
     font-size: 42px;
     margin: 0 0 24px;
-    /* text-decoration: underline; */
 }
 
 .mli {
@@ -33,7 +32,6 @@
 @media (max-width: 1320px) {
     .mlh {
         padding: 0 30px;
-        border: 1px solid red;
     }
 }
 

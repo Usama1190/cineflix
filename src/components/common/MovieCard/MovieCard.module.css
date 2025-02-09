@@ -1,13 +1,9 @@
 .mcw {
     width: 236px;
-    /* border-radius: 15px; */
     overflow: hidden;
     margin: 0 0 24px;
-    /* box-shadow: 0px 0px 10px #cccccc; */
     transition: all 0.3s;
-    /* border: 1px solid #e2e2e2; */
     z-index: 1;
-    /* height: 437px; */
 }
 
 .mcw:hover .mci img {
@@ -19,7 +15,6 @@
     width: 100%;
     height: 317px;
     transition: all 0.3s;
-    /* border: 1px solid red; */
 }
 
 .mci img {
@@ -29,10 +24,25 @@
     transition: all 0.3s;
 }
 
-/* .mcw h2 {
-    margin: 16px;
-} */
-
 .mcw p {
     margin: 12px;
+}
+
+@media (max-width: 558px) {
+    .mcw {
+        /* width: 467px; */
+        width: 85vw;
+        box-sizing: border-box;
+    }
+
+    .mci {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mci img {
+        width: 100%;
+        box-sizing: border-box;
+        object-fit: cover;
+    }
 }
