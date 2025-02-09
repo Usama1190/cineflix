@@ -11,8 +11,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Dancing Script", serif;
-    background-color: var(--primery);
-    color: var(--text-light);
 }
 
 ul {
@@ -21,6 +19,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: var(--text-light);
 }
 
 .active {
@@ -33,7 +32,7 @@ a > button a.active {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: var(--text-light);
+    /* color: var(--text-light); */
 }
 
 button.sf {
@@ -63,9 +62,11 @@ button.ss {
     font-weight: 800;
     font-size: 24px;
     transition: all 0.3s;
+    color: var(--secondary);
 }
 
 button.ss:hover {
     background-color: var(--secondary);
     border: 2px solid transparent;
+    color: var(--text-light);
 }

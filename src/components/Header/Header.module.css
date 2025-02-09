@@ -19,10 +19,11 @@
 
 .hfw > h1 {
     font-size: 44px;
+    color: var(--text-light);
 }
 
 .hfw ul {
-    width: 276px;
+    width: 316px;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -34,7 +35,7 @@
 }
 
 .hfw ul li a {
-    padding: 12px 0;
+    padding: 12px 15px;
     font-weight: 800;
     font-size: 24px;
 }

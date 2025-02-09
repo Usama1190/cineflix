@@ -8,11 +8,11 @@
     display: flex;
     justify-content: center;
     align-items:end;
-    background-color: rgb(212, 110, 15);
+    background-color: var(--primery);
 }
 
 .efw h1 {
-    font-size: 164px;
+    font-size: 144px;
     color: #fff;
 }
 
@@ -24,10 +24,12 @@
 }
 
 .esw h2 {
-    font-size: 78px;
+    font-size: 56px;
+    color: var(--primery);
 }
 
 .esw p {
     font-size: 24px;
     margin: 0 0 32px;
+    color: var(--primery);
 }

@@ -19,7 +19,7 @@ const Hero = ({ data }) => {
   } = data;
 
   return (
-    <div className={styles.hw}>
+    <div className={`${styles.hw} ${!isrotate ? styles.hsw : ""}`}>
       <div className={`${styles.hiw} ${!isrotate ? styles.rotate : ""}`}>
         <div className={styles.hi}>
           <img src={image_url} alt={img_alt} />

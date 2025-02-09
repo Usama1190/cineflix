@@ -11,5 +11,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--secondary);
+}
+
+.fiw h1, p {
+    color: var(--text-light);
 }

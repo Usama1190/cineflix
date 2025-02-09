@@ -1,12 +1,12 @@
 .hw {
     width: 100%;
     box-sizing: border-box;
-    /* border: 1px solid red; */
     padding: 96px 0;
+    background-color: var(--primery);
+    color: var(--text-light);
 }
 
 .hiw {
-    /* border: 1px solid red; */
     max-width: 1300px;
     box-sizing: border-box;
     margin: 0 auto;
@@ -18,6 +18,11 @@
 
 .rotate {
     flex-direction: row-reverse;
+}
+
+.hsw {
+    background-color: #fff;
+    color: var(--primery);
 }
 
 .hi {
