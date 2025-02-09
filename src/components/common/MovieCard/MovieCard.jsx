@@ -2,15 +2,15 @@ import { NavLink } from "react-router-dom";
 import styles from "./MovieCard.module.css";
 
 const MovieCard = ({ data }) => {
-  const { id, title, producer, director, year, description } = data;
+  const { id, title, year, image_url, img_alt } = data;
   return (
     <NavLink to={`/movies/${id}`}>
       <div className={styles.mcw}>
+        <div className={styles.mci}>
+        <img src={image_url} alt={img_alt} />
+        </div>
         <h1>{title}</h1>
-        <p>{description}</p>
         <p>Realeased: {year}</p>
-        <p>Producer: {producer}</p>
-        <p>Director: {director}</p>
       </div>
     </NavLink>
   );

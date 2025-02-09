@@ -1,5 +1,5 @@
 .ml {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 100%;
     box-sizing: border-box;
     padding: 96px 0;
@@ -10,9 +10,12 @@
     box-sizing: border-box;
     margin: 0 auto;
     padding: 32px 0;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     flex-wrap: wrap;
+    gap: 64px;
+    /* justify-content: space-between; */
+    align-items: center;
 }
 
 .mli div {

@@ -15,7 +15,8 @@ const movies = [
     language: "English",
     cinema: "Warner Bros.",
     release_date: "March 1, 2024",
-    image_url: "./assets/imgs/dunepart2.jpeg",
+    image_url: "/assets/imgs/dunepart2.jpeg",
+    img_alt: 'Dune: Part Two image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -34,7 +35,8 @@ const movies = [
     language: "English",
     cinema: "Marvel Studios",
     release_date: "July 26, 2024",
-    image_url: "./assets/imgs/deadpool3.jpeg",
+    image_url: "/assets/imgs/deadpool3.jpeg",
+    img_alt: 'Deadpool 3 image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -53,7 +55,8 @@ const movies = [
     language: "English",
     cinema: "Warner Bros.",
     release_date: "October 4, 2024",
-    image_url: "./assets/imgs/jokerfolieadeux.jpeg",
+    image_url: "/assets/imgs/jokerfolieadeux.jpeg",
+    img_alt: 'Joker: Folie à Deux image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -72,7 +75,8 @@ const movies = [
     language: "English",
     cinema: "20th Century Studios",
     release_date: "December 19, 2025",
-    image_url: "./assets/imgs/avatar3.jpeg",
+    image_url: "/assets/imgs/avatar3.jpeg",
+    img_alt: 'Avatar 3 image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -91,7 +95,8 @@ const movies = [
     language: "English",
     cinema: "Paramount Pictures",
     release_date: "May 23, 2025",
-    image_url: "./assets/imgs/missionimposiblepart2.jpeg",
+    image_url: "/assets/imgs/missionimposiblepart2.jpeg",
+    img_alt: 'Mission: Impossible – Dead Reckoning Part Two image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -110,7 +115,8 @@ const movies = [
     language: "English",
     cinema: "Legendary Pictures",
     release_date: "March 29, 2024",
-    image_url: "./assets/imgs/godzillaxkong.jpeg",
+    image_url: "/assets/imgs/godzillaxkong.jpeg",
+    img_alt: 'Godzilla x Kong: The New Empire image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -128,7 +134,8 @@ const movies = [
     revenue: "$850M",
     language: "English",
     cinema: "Marvel Studios",
-    image_url: "https://example.com/guardians3-poster.jpg",
+    image_url: "/assets/imgs/guardiansvol3.jpeg",
+    img_alt: 'Guardians of the Galaxy Vol. 3 image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -146,7 +153,8 @@ const movies = [
     revenue: "$800M",
     language: "English",
     cinema: "Warner Bros.",
-    image_url: "https://example.com/theflash-poster.jpg",
+    image_url: "/assets/imgs/theflash.jpeg",
+    img_alt: 'The Flash image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -164,7 +172,8 @@ const movies = [
     revenue: "$600M",
     language: "English",
     cinema: "Marvel Studios",
-    image_url: "https://example.com/marvels-poster.jpg",
+    image_url: "/assets/imgs/themarvels.jpeg",
+    img_alt: 'The Marvels image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -182,7 +191,8 @@ const movies = [
     revenue: "$750M",
     language: "English",
     cinema: "Paramount Pictures",
-    image_url: "https://example.com/mi7-part1-poster.jpg",
+    image_url: "/assets/imgs/missionimpossiblepart1.jpeg",
+    img_alt: 'Mission: Impossible – Dead Reckoning Part One image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -200,7 +210,8 @@ const movies = [
     revenue: "$500M",
     language: "English",
     cinema: "Lucasfilm",
-    image_url: "https://example.com/indiana-jones5-poster.jpg",
+    image_url: "/assets/imgs/indianajones.jpeg",
+    img_alt: 'Indiana Jones and the Dial of Destiny image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -218,7 +229,8 @@ const movies = [
     revenue: "$700M",
     language: "English",
     cinema: "Walt Disney Studios",
-    image_url: "https://example.com/little-mermaid-poster.jpg",
+    image_url: "/assets/imgs/thelittlemermaid.jpeg",
+    img_alt: 'The Little Mermaid image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -236,7 +248,8 @@ const movies = [
     revenue: "$1B",
     language: "English",
     cinema: "Universal Pictures",
-    image_url: "https://example.com/oppenheimer-poster.jpg",
+    image_url: "/assets/imgs/oppenheimer.jpeg",
+    img_alt: 'Oppenheimer image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -254,7 +267,8 @@ const movies = [
     revenue: "$700M",
     language: "English",
     cinema: "Sony Pictures Animation",
-    image_url: "https://example.com/spiderverse2-poster.jpg",
+    image_url: "/assets/imgs/spidermanacrossthespiderverse.jpeg",
+    img_alt: 'Spider-Man: Across the Spider-Verse image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -272,7 +286,8 @@ const movies = [
     revenue: "$1.3B",
     language: "English",
     cinema: "Warner Bros.",
-    image_url: "https://example.com/barbie-poster.jpg",
+    image_url: "/assets/imgs/barbie.jpeg",
+    img_alt: 'Barbie image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -290,7 +305,8 @@ const movies = [
     revenue: "$120M",
     language: "English",
     cinema: "Paramount Pictures",
-    image_url: "https://example.com/scream6-poster.jpg",
+    image_url: "/assets/imgs/scream7.jpeg",
+    img_alt: 'Scream VI image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -308,7 +324,8 @@ const movies = [
     revenue: "$500M",
     language: "English",
     cinema: "Lionsgate Films",
-    image_url: "https://example.com/hunger-games-prequel-poster.jpg",
+    image_url: "/assets/imgs/thehungergames.jpeg",
+    img_alt: 'The Hunger Games: The Ballad of Songbirds and Snakes image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
   {
@@ -326,8 +343,8 @@ const movies = [
     revenue: "$800M",
     language: "English",
     cinema: "Universal Pictures",
-    image_url: "https://example.com/fast10-poster.jpg",
-    background_image: "https://example.com/fast10-bg.jpg",
+    image_url: "/assets/imgs/fastandfurious.jpeg",
+    img_alt: 'Fast & Furious 10 image',
     trailer: "https://www.youtube.com/watch?v=example",
   },
 ];

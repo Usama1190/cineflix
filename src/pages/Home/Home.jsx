@@ -6,11 +6,13 @@ const Home = () => {
     <div className="">
       <div>
         {movies.map((item, index) => {
-            return (
-              <div key={index}>
-                <Hero data={item} specific_status={'Upcoming'} />
-              </div>
-            )
+            if(item.status == 'Upcoming') {
+              return (
+                <div key={index}>
+                  <Hero data={item} />
+                </div>
+              )
+            }
           }
         )}
       </div>
